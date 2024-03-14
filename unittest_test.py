@@ -39,7 +39,7 @@ class TestEqualFunction(unittest.TestCase):
 
 class TestConvertFunction(unittest.TestCase):
     def testException(self):
-        with self.assertRaises(ValueError):
+        with self.assertRaises(ValueError):  #If convertToInt is called with a string an error is raised, more specifically a ValueError
             convertToInt("hej")
 
 ########################anrop av testfunktionerna##################
