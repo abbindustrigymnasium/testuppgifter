@@ -1,5 +1,11 @@
 import unittest
-
+###################################################################
+#Den här filen innehåller exempelkod för enhetstest mha Python modulen unittest
+#Filen med enhettest kan köras i terminalen (som vanliga python script), vi kan få olika mycket information och köra olika delar enligt nedan.
+# >> python ./unittest_test.py                                  (där det senare är filnamnet)
+# >> python ./unittest_test.py -v                               (för  att se varje tests resultat separat)
+# >> python ./unittest_test.py -v TestAddFunction               (för att endast testen i klassen TestAddFunction ska köras)
+# >> python ./unittest_test.py -v TestAddFunction.testAddPos    (för att endast testfunktionen testAddPos ska köras)
 
 ####################några funktioner#################################
 def add(a,b):
